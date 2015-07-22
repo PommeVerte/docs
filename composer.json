@@ -1,0 +1,16 @@
+{
+  "name": "spider/docs",
+  "description": "Documentation",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "sami/sami": "v3.0.6",
+    "spider/spider": "dev-develop"
+  }
+}
