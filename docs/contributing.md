@@ -5,7 +5,6 @@ Contributions are **welcome** and will be fully **credited**.
 We accept contributions via Pull Requests on [Github](https://github.com/chrismichaels84/Spider-Graph).
 
 ## Pull Requests
-
 - **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)** - The easiest way to apply the conventions is to install [PHP Code Sniffer](http://pear.php.net/package/PHP_CodeSniffer).
 
 - **Add tests!** - Your patch won't be accepted if it doesn't have tests.
@@ -20,11 +19,12 @@ We accept contributions via Pull Requests on [Github](https://github.com/chrismi
 
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please squash them before submitting.
 
-## Running Tests
-
-``` bash
-$ phpunit
+### RunningTests
+```bash
+phpunit
 ```
+Note that the OrientDriver tests are disabled for the auto-build Travis CI process. They require a working database. Until a better way of mocking or seeding a test database is found, just allow these tests to be skipped. I am keeping up with them on my development machine. Any suggestions are welcome!
+
 
 ## Branches
 The **master** branch always contains the most up-to-date, production ready release. In most cases, this will be the same as the latest release under the "releases" tab.
